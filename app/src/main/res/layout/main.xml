@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:weightSum="3"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/buttonimage"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:id="@+id/button1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button4" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button5"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button6"
+                android:layout_gravity="right" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="3"
+            android:layout_gravity="center_horizontal">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button7" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button8"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=""
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/buttonimage"
+                android:id="@+id/button9"
+                android:layout_gravity="right" />
+
+
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textAlignment="center"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW GAME"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@drawable/save"
+        android:id="@+id/newgamebutton"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
